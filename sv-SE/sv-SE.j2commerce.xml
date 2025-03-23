@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<extension type="file" method="upgrade">
+    <name>file_svse</name>
+    <version>4.0.12</version>
+    <creationDate>MAR 2025</creationDate>
+    <author>J2Commerce</author>
+    <authorEmail>support@j2commerce.com</authorEmail>
+    <authorUrl>https://www.j2commerce.com</authorUrl>
+    <copyright>2025 J2Commerce, LLC.</copyright>
+    <license>GNU General Public License v3 or later</license>
+    <description><![CDATA[<div style="text-align: left;">
+<h3>Språkpaket för J2Commerce (sv-SE)</h3>
+<p><a href="https://github.com/j2commerce/j2ctranslations" target="_blank">Originalöversättningar på GitHub</a></p>
+</div>]]></description>
+    <scriptfile>script.php</scriptfile>
+    <fileset>
+        <files folder="administrator/language/sv-SE" target="administrator/language/sv-SE">
+            <folder>/</folder>
+        </files>
+        <files folder="language/sv-SE" target="language/sv-SE">
+            <folder>/</folder>
+        </files>
+    </fileset>
+    <updateservers>
+        <server type="extension" priority="2" name="J2Commerce sv-SE">
+            https://updates.j2commerce.com/language/sv-SE.xml
+        </server>
+    </updateservers>
+</extension>

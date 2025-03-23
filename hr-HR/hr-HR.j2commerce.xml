@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<extension type="file" method="upgrade">
+    <name>file_hrhr</name>
+    <version>4.0.12</version>
+    <creationDate>MAR 2025</creationDate>
+    <author>J2Commerce</author>
+    <authorEmail>support@j2commerce.com</authorEmail>
+    <authorUrl>https://www.j2commerce.com</authorUrl>
+    <copyright>2025 J2Commerce, LLC.</copyright>
+    <license>GNU General Public License v3 or later</license>
+    <description><![CDATA[<div style="text-align: left;">
+<h3>Jezični paket za J2Commerce (hr-HR)</h3>
+<p><a href="https://github.com/j2commerce/j2ctranslations" target="_blank">Izvorni prijevodi na GitHubu</a></p>
+</div>]]></description>
+    <scriptfile>script.php</scriptfile>
+    <fileset>
+        <files folder="administrator/language/hr-HR" target="administrator/language/hr-HR">
+            <folder>/</folder>
+        </files>
+        <files folder="language/hr-HR" target="language/hr-HR">
+            <folder>/</folder>
+        </files>
+    </fileset>
+    <updateservers>
+        <server type="extension" priority="2" name="J2Commerce hr-HR">
+            https://updates.j2commerce.com/language/hr-HR.xml
+        </server>
+    </updateservers>
+</extension>

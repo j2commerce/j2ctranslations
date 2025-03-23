@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<extension type="file" method="upgrade">
+    <name>file_lvlv</name>
+    <version>4.0.12</version>
+    <creationDate>MAR 2025</creationDate>
+    <author>J2Commerce</author>
+    <authorEmail>support@j2commerce.com</authorEmail>
+    <authorUrl>https://www.j2commerce.com</authorUrl>
+    <copyright>2025 J2Commerce, LLC.</copyright>
+    <license>GNU General Public License v3 or later</license>
+    <description><![CDATA[<div style="text-align: left;">
+<h3>Valodu pakotne J2Commerce (lv-LV)</h3>
+<p><a href="https://github.com/j2commerce/j2ctranslations" target="_blank">Oriģinālie tulkojumi vietnē GitHub</a></p>
+</div>]]></description>
+    <scriptfile>script.php</scriptfile>
+    <fileset>
+        <files folder="administrator/language/lv-LV" target="administrator/language/lv-LV">
+            <folder>/</folder>
+        </files>
+        <files folder="language/lv-LV" target="language/lv-LV">
+            <folder>/</folder>
+        </files>
+    </fileset>
+    <updateservers>
+        <server type="extension" priority="2" name="J2Commerce lv-LV">
+            https://updates.j2commerce.com/language/lv-LV.xml
+        </server>
+    </updateservers>
+</extension>
