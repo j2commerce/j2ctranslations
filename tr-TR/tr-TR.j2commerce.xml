@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<extension type="file" method="upgrade">
+    <name>file_trtr</name>
+    <version>4.0.12</version>
+    <creationDate>MAR 2025</creationDate>
+    <author>J2Commerce</author>
+    <authorEmail>support@j2commerce.com</authorEmail>
+    <authorUrl>https://www.j2commerce.com</authorUrl>
+    <copyright>2025 J2Commerce, LLC.</copyright>
+    <license>GNU General Public License v3 or later</license>
+    <description><![CDATA[<div style="text-align: left;">
+<h3>J2Commerce Dil Paketi (tr-TR)</h3>
+<p><a href="https://github.com/j2commerce/j2ctranslations" target="_blank">Orijinal çeviriler GitHub'da</a></p>
+</div>]]></description>
+    <scriptfile>script.php</scriptfile>
+    <fileset>
+        <files folder="administrator/language/tr-TR" target="administrator/language/tr-TR">
+            <folder>/</folder>
+        </files>
+        <files folder="language/tr-TR" target="language/tr-TR">
+            <folder>/</folder>
+        </files>
+    </fileset>
+    <updateservers>
+        <server type="extension" priority="2" name="J2Commerce tr-TR">
+            https://updates.j2commerce.com/language/tr-TR.xml
+        </server>
+    </updateservers>
+</extension>

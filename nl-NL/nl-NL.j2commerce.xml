@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<extension type="file" method="upgrade">
+    <name>file_nlnl</name>
+    <version>4.0.12</version>
+    <creationDate>MAR 2025</creationDate>
+    <author>J2Commerce</author>
+    <authorEmail>support@j2commerce.com</authorEmail>
+    <authorUrl>https://www.j2commerce.com</authorUrl>
+    <copyright>2025 J2Commerce, LLC.</copyright>
+    <license>GNU General Public License v3 or later</license>
+    <description><![CDATA[<div style="text-align: left;">
+<h3>Taalpakket J2Commerce (nl-NL)</h3>
+<p><a href="https://github.com/j2commerce/j2ctranslations" target="_blank">Originele vertalingen op GitHub</a></p>
+</div>]]></description>
+    <scriptfile>script.php</scriptfile>
+    <fileset>
+        <files folder="administrator/language/nl-NL" target="administrator/language/nl-NL">
+            <folder>/</folder>
+        </files>
+        <files folder="language/nl-NL" target="language/nl-NL">
+            <folder>/</folder>
+        </files>
+    </fileset>
+    <updateservers>
+        <server type="extension" priority="2" name="J2Commerce nl-NL">
+            https://updates.j2commerce.com/language/nl-NL.xml
+        </server>
+    </updateservers>
+</extension>
