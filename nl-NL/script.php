@@ -52,6 +52,8 @@ return new class () implements ServiceProviderInterface {
                 {
                     $this->app = $app;
                     $this->db  = $db;
+
+                    $this->app->getLanguage()->load('files_joomla.sys', JPATH_SITE);
                 }
 
                 public function preflight(string $type, InstallerAdapter $parent): bool
@@ -113,7 +115,8 @@ return new class () implements ServiceProviderInterface {
                         try {
                             File::delete(JPATH_ROOT . $file);
                         } catch (FilesystemException $e) {
-                            echo Text::sprintf('FILES_JOOMLA_ERROR_FILE_FOLDER', $file) . '<br>';
+                            $message = Text::sprintf('FILES_JOOMLA_ERROR_FILE_FOLDER', $file) . '<br>';
+                            $this->app->enqueueMessage($message, 'error');
                         }
                     }
                 }
