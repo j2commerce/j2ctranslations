@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<extension type="file" method="upgrade">
+    <name>file_dadk</name>
+    <version>4.0.12</version>
+    <creationDate>MAR 2025</creationDate>
+    <author>J2Commerce</author>
+    <authorEmail>support@j2commerce.com</authorEmail>
+    <authorUrl>https://www.j2commerce.com</authorUrl>
+    <copyright>2025 J2Commerce, LLC.</copyright>
+    <license>GNU General Public License v3 or later</license>
+    <description><![CDATA[<div style="text-align: left;">
+<h3>J2Commerce sprogpakke (da-DK)</h3>
+<p><a href="https://github.com/j2commerce/j2ctranslations" target="_blank">Originale oversettelser på GitHub</a></p>
+</div>]]></description>
+    <scriptfile>script.php</scriptfile>
+    <fileset>
+        <files folder="administrator/language/da-DK" target="administrator/language/da-DK">
+            <folder>/</folder>
+        </files>
+        <files folder="language/da-DK" target="language/da-DK">
+            <folder>/</folder>
+        </files>
+    </fileset>
+    <updateservers>
+        <server type="extension" priority="2" name="J2Commerce da-DK">
+            https://updates.j2commerce.com/language/da-DK.xml
+        </server>
+    </updateservers>
+</extension>

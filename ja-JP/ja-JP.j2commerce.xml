@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<extension type="file" method="upgrade">
+    <name>file_jajp</name>
+    <version>4.0.12</version>
+    <creationDate>MAR 2025</creationDate>
+    <author>J2Commerce</author>
+    <authorEmail>support@j2commerce.com</authorEmail>
+    <authorUrl>https://www.j2commerce.com</authorUrl>
+    <copyright>2025 J2Commerce, LLC.</copyright>
+    <license>GNU General Public License v3 or later</license>
+    <description><![CDATA[<div style="text-align: left;">
+<h3>J2Commerce 言語パック (ja-JP)</h3>
+<p><a href="https://github.com/j2commerce/j2ctranslations" target="_blank">GitHubのオリジナル翻訳</a></p>
+</div>]]></description>
+    <scriptfile>script.php</scriptfile>
+    <fileset>
+        <files folder="administrator/language/ja-JP" target="administrator/language/ja-JP">
+            <folder>/</folder>
+        </files>
+        <files folder="language/ja-JP" target="language/ja-JP">
+            <folder>/</folder>
+        </files>
+    </fileset>
+    <updateservers>
+        <server type="extension" priority="2" name="J2Commerce ja-JP">
+            https://updates.j2commerce.com/language/ja-JP.xml
+        </server>
+    </updateservers>
+</extension>
